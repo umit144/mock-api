@@ -104,6 +104,6 @@ func main() {
 
 	http.HandleFunc("/receipt/validate", validateReceipt)
 
-	log.Printf("Server starting on :8081")
-	log.Fatal(http.ListenAndServe(":8081", nil))
+	log.Printf("Server starting on :80")
+	log.Fatal(http.ListenAndServe(":80", nil))
 }
